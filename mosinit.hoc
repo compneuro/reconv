@@ -1,0 +1,18 @@
+// ReConv algorithm for reconstructing evoked LFP in cerebellar granular layer
+// Uses Multicompartmental GrC model (see http://senselab.med.yale.edu/ModelDb/showmodel.asp?model=116835)
+// Last updated 11-June-2011
+// Model developer: Shyam Diwakar M.
+// Developed at Amrita School of Biotechnology (India) and at Prof. Egidio D'Angelo's Lab at Univ of Pavia (Italy)
+// Amrita School of Biotechnology, Amritapuri
+// Clappana P.O., Kollam, 690 525, Kerala, India.
+// http://research.amrita.edu/compneuro
+// Email:shyam@amrita.edu
+
+ 
+/* Model published as [Diwakar et al., 2011, manuscript accepted, PLoS ONE]
+Shyam Diwakar, Paola Lombardo, Sergio Solinas, Giovanni Naldi, Egidio D'Angelo. "Local field potential modeling predicts dense activation in cerebellar granule cells clusters under LTP and LTD control", PLoS ONE, 2011.
+*/
+
+load_file("nrngui.hoc")
+load_file("Start.hoc")
+
